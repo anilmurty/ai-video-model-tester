@@ -12,6 +12,27 @@ A modern, beautiful React application for testing AI video generation models fro
 - **Debug Panel**: Comprehensive logging and debugging tools
 - **Responsive Design**: Works perfectly on desktop and mobile
 
+## 🎯 Usage
+
+1. **Choose Provider**: Select between "Replicate Sora-2" or "OpenAI Sora-2"
+2. **Enter API Key**: Input your API key for the selected provider
+3. **Write Prompt**: Describe the video you want to generate
+4. **Generate**: Click "Generate Video" and wait for completion
+5. **Watch**: View your generated video in the built-in player
+
+## 🔑 API Key Setup
+
+### Replicate (Recommended)
+1. Sign up at [replicate.com](https://replicate.com)
+2. Navigate to your account settings
+3. Generate a new API token
+4. Add to your `.env` file: `REPLICATE_API_TOKEN=your_token_here`
+
+### OpenAI (Optional)
+1. Visit [platform.openai.com](https://platform.openai.com)
+2. Create an account and generate an API key
+3. Add to your `.env` file: `OPENAI_API_KEY=your_key_here`
+
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -49,27 +70,6 @@ A modern, beautiful React application for testing AI video generation models fro
 5. **Open your browser:**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
-## 🎯 Usage
-
-1. **Choose Provider**: Select between "Replicate Sora-2" or "OpenAI Sora-2"
-2. **Enter API Key**: Input your API key for the selected provider
-3. **Write Prompt**: Describe the video you want to generate
-4. **Generate**: Click "Generate Video" and wait for completion
-5. **Watch**: View your generated video in the built-in player
-
-## 🔑 API Key Setup
-
-### Replicate (Recommended)
-1. Sign up at [replicate.com](https://replicate.com)
-2. Navigate to your account settings
-3. Generate a new API token
-4. Add to your `.env` file: `REPLICATE_API_TOKEN=your_token_here`
-
-### OpenAI (Optional)
-1. Visit [platform.openai.com](https://platform.openai.com)
-2. Create an account and generate an API key
-3. Add to your `.env` file: `OPENAI_API_KEY=your_key_here`
-
 ## 🛠️ Development
 
 ### Available Scripts
@@ -93,15 +93,6 @@ ai-video-model-tester/
 ├── .env               # Environment variables (not committed)
 └── README.md          # This file
 ```
-
-## 🎨 Design Features
-
-- **Glassmorphism UI**: Translucent cards with backdrop blur effects
-- **Gradient Backgrounds**: Beautiful blue-to-purple gradients
-- **Responsive Layout**: Adapts to all screen sizes
-- **Modern Typography**: Clean, readable fonts
-- **Interactive Elements**: Hover effects and smooth transitions
-
 ## 🔧 Technical Details
 
 - **Frontend**: React 18 with modern hooks
@@ -109,14 +100,6 @@ ai-video-model-tester/
 - **Styling**: Custom CSS with glassmorphism effects
 - **API Integration**: Replicate and OpenAI Sora-2 models
 - **Video Processing**: Real-time polling and status updates
-
-## 📝 Notes
-
-- **Replicate**: Currently the most reliable option for Sora-2 access
-- **Generation Time**: Videos typically take 2-5 minutes to generate
-- **Video Duration**: Maximum 8-10 seconds per generation
-- **File Size**: Generated videos are optimized for web playback
-- **Debugging**: Use the debug panel to troubleshoot issues
 
 ## 🤝 Contributing
 
@@ -131,12 +114,3 @@ ai-video-model-tester/
 
 This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
-
-- Inspired by the beautiful design of [TryCrib](https://www.trycrib.com/)
-- Built with [Replicate](https://replicate.com/) and [OpenAI](https://openai.com/) APIs
-- Uses modern React patterns and glassmorphism design principles
-=======
-# ai-video-model-tester
-Simple app to test various ai video models and api providers
->>>>>>> 633c2f49335e1dc17c0bfeff12eaf81742b084c8
