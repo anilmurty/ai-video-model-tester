@@ -2,6 +2,9 @@
 
 A modern, beautiful React application for testing AI video generation models from multiple providers. Built with a stunning glassmorphism design inspired by TryCrib, this app allows you to easily test and compare different AI video generation APIs.
 
+<img width="1102" height="1308" alt="Screenshot 2025-10-07 at 3 41 50 PM" src="https://github.com/user-attachments/assets/18f9fdfe-8088-4b08-a640-172dfb071f1a" />
+
+
 ## 🎬 Features
 
 - **Multi-Provider Support**: Test both Replicate Sora-2 and OpenAI Sora-2 models
