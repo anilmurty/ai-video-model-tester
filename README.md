@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AI Video Model Tester
 
 A modern, beautiful React application for testing AI video generation models from multiple providers. Built with a stunning glassmorphism design inspired by TryCrib, this app allows you to easily test and compare different AI video generation APIs.
@@ -136,3 +137,7 @@ This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) 
 - Inspired by the beautiful design of [TryCrib](https://www.trycrib.com/)
 - Built with [Replicate](https://replicate.com/) and [OpenAI](https://openai.com/) APIs
 - Uses modern React patterns and glassmorphism design principles
+=======
+# ai-video-model-tester
+Simple app to test various ai video models and api providers
+>>>>>>> 633c2f49335e1dc17c0bfeff12eaf81742b084c8
